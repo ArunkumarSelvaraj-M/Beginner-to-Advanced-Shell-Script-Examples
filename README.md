@@ -256,7 +256,32 @@ This file contains a comprehensive list of commonly used Linux commands with des
     eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
             inet 192.168.1.100  netmask 255.255.255.0  broadcast 192.168.1.255
     ```
+---
 
+### `ip`
+- **Description**: Show/manipulate routing, devices, policy routing, and tunnels.
+- **Usage**:
+    ```bash
+    ip addr show
+    ```
+---
+
+## j
+### `jobs`
+-**Description**: List active jobs.
+-**Usage**:
+    ```bash
+    jobs
+    ```
+---
+
+## k
+### `kill`
+- **Description**: Terminate a process by PID.
+- **Usage**:
+    ```bash
+    kill 1234
+    ```
 ---
 
 ## l
@@ -310,6 +335,25 @@ This file contains a comprehensive list of commonly used Linux commands with des
 
 ---
 
+## n
+### `nano`
+- **Description**: Simple text editor.
+- **Usage**:
+    ```bash
+    nano file.txt
+    ```
+---
+
+## o
+
+### `open`
+- **Description**: Open a file in its default application.
+- **Usage**:
+    ```bash
+    open file.txt
+    ```
+---
+
 ## p
 
 ### `ps`
@@ -347,7 +391,7 @@ This file contains a comprehensive list of commonly used Linux commands with des
 
 ## q
 
-### quota
+### `quota`
 - **Description**: Display disk usage and limits.
 - **Usage**:
     ```bash
@@ -356,14 +400,14 @@ This file contains a comprehensive list of commonly used Linux commands with des
 ---
 
 ## r
-### rmdir
+### `rmdir`
 - **Description**: Remove empty directories.
 - **Usage**:
     ```bash
     rmdir directory_name
     ```
 
-### rsync
+### `rsync`
 - **Description**: Synchronize files and directories between two locations.
 - **Usage**:
     ```bash
@@ -374,7 +418,7 @@ This file contains a comprehensive list of commonly used Linux commands with des
 
 ## s
 
-### shutdown
+### `shutdown`
 
 - **Description**: Halt, power off, or reboot the machine.
 - **Usage**:
@@ -389,7 +433,7 @@ This file contains a comprehensive list of commonly used Linux commands with des
 
 Reboots the machine in 5 minutes.
 
-### sleep
+### `sleep`
 
 - **Description**: Delay for a specified amount of time.
 - **Usage**:
@@ -404,7 +448,7 @@ Reboots the machine in 5 minutes.
 
 Sleeps for 10 seconds and then outputs "Done!".
 
-### sort
+### `sort`
 
 - **Description**: Sort lines of text files.
 - **Usage**:
@@ -419,7 +463,7 @@ Sleeps for 10 seconds and then outputs "Done!".
 
 Sorts the file in reverse order.
 
-### ssh
+### `ssh`
 
 - **Description**: Secure Shell to log into a remote machine.
 - **Usage**:
