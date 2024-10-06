@@ -1,14 +1,9 @@
 # Shell-Scripting-Guide
 A comprehensive guide to shell scripting from beginner to advanced levels, including examples of variable types, loops, functions, and error handling. Ideal for learning and practical scripting in Unix/Linux environments.
 
-# Linux Command Reference with Examples
+# Linux Command Reference with Examples and Outputs
 
 This file contains a comprehensive list of commonly used Linux commands with descriptions, usage examples, and common flags.
-
-# Creating a more detailed README with examples and expected outputs
-
-content_detailed = """
-# Linux Command Reference with Examples and Outputs
 
 ## a
 
