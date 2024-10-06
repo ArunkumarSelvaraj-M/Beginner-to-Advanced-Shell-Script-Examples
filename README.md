@@ -345,6 +345,91 @@ This file contains a comprehensive list of commonly used Linux commands with des
 
 ---
 
+## q
+
+### quota
+- **Description**: Display disk usage and limits.
+- **Usage**:
+    ```bash
+    quota -u username
+    ```
+---
+
+## r
+### rmdir
+- **Description**: Remove empty directories.
+- **Usage**:
+    ```bash
+    rmdir directory_name
+    ```
+
+### rsync
+- **Description**: Synchronize files and directories between two locations.
+- **Usage**:
+    ```bash
+    rsync -av source_directory/ destination_directory/
+    ```
+
+---
+
+## s
+
+### shutdown
+
+- **Description**: Halt, power off, or reboot the machine.
+- **Usage**:
+    ```bash
+    shutdown -h now
+    ```
+
+- **Example**:
+    ```bash
+    shutdown -r +5
+    ```
+
+Reboots the machine in 5 minutes.
+
+### sleep
+
+- **Description**: Delay for a specified amount of time.
+- **Usage**:
+    ```bash
+    sleep 5
+    ```
+
+- **Example**:
+    ```bash
+    sleep 10 && echo "Done!"
+    ```
+
+Sleeps for 10 seconds and then outputs "Done!".
+
+### sort
+
+- **Description**: Sort lines of text files.
+- **Usage**:
+    ```bash
+    sort file.txt
+    ```
+
+- **Example**:
+    ```bash
+    sort -r file.txt
+    ```
+
+Sorts the file in reverse order.
+
+### ssh
+
+- **Description**: Secure Shell to log into a remote machine.
+- **Usage**:
+    ```bash
+    ssh user@hostname
+    ```
+
+---
+
+
 ## t
 
 ### `tar`
