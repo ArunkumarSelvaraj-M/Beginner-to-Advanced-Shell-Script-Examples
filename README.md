@@ -48,8 +48,8 @@ Enjoy learning about decision-making in bash scripting with this comprehensive e
 These files will help you manage decision-making examples with `if` statements, covering a wide range of bash scripting scenarios from beginner to advanced.
 ```
 
-1. Basic if Statement
-The if statement checks a condition and executes code if the condition is true.
+1. Basic `if` Statement
+The if statement checks a condition and executes code `if` the condition is true.
 
 - Syntax:
 
@@ -70,10 +70,10 @@ The if statement checks a condition and executes code if the condition is true.
 
 - Explanation:
 
-- -eq: Numeric equality check. The script checks if the variable num is equal to 10.
+- `-eq`: Numeric equality check. The script checks if the variable `num` is equal to 10.
 
 2. Using `else`
-The else block executes when the if condition is false.
+The `else` block executes when the `if` condition is false.
 
 - Syntax:
 
@@ -94,8 +94,8 @@ The else block executes when the if condition is false.
         echo "The number is not 10."
     fi
     ```
-3. Using elif
-The elif block allows multiple conditions to be tested.
+3. Using `elif`
+The `elif` block allows multiple conditions to be tested.
 
 - Syntax:
 
@@ -125,10 +125,10 @@ You can test string conditions in Bash using string operators.
 
 - String Comparison Operators:
 
-- =: Equal
-- !=: Not equal
-- -z: String is null (empty)
-- -n: String is not null (not empty)
+-`=`: Equal
+- `!=`: Not equal
+- `-z`: String is null (empty)
+- `-n`: String is not null (not empty)
 
 - Example:
 
@@ -146,13 +146,13 @@ You can check various properties of files using specific operators.
 
 - Common File Test Operators:
 
-- -e: File exists
-- -f: File is a regular file
-- -d: File is a directory
-- -r: File is readable
-- -w: File is writable
-- -x: File is executable
-- -s: File is not empty
+- `-e`: File exists
+- `-f`: File is a regular file
+- `-d`: File is a directory
+- `-r`: File is readable
+- `-w`: File is writable
+- `-x`: File is executable
+- `-s`: File is not empty
 
 - Example:
 
@@ -172,12 +172,12 @@ In Bash, arithmetic comparisons can be made using the following operators:
 
 - Arithmetic Comparison Operators:
 
-- -eq: Equal to
-- -ne: Not equal to
-- -lt: Less than
-- -le: Less than or equal to
-- -gt: Greater than
-- -ge: Greater than or equal to
+- `-eq`: Equal to
+- `-ne`: Not equal to
+- `-lt`: Less than
+- `-le`: Less than or equal to
+- `-gt`: Greater than
+- `-ge`: Greater than or equal to
 
 - Example:
 
@@ -191,15 +191,15 @@ In Bash, arithmetic comparisons can be made using the following operators:
     ```
 
 7. Compound Conditions
-You can use && (AND) and || (OR) to combine conditions.
+You can use `&&` (AND) and `||` (OR) to combine conditions.
 
-- AND Operator (&&):
+- AND Operator (`&&`):
 
     ```bash
     if [ "$num" -gt 10 ] && [ "$num" -lt 100 ]; then
         echo "Number is between 10 and 100."
     fi
-    OR Operator (||):
+    OR Operator (`||`):
     ```
 
     ```bash
@@ -209,7 +209,7 @@ You can use && (AND) and || (OR) to combine conditions.
     ```
 
 8. Advanced Compound Tests
-You can use parentheses () for grouping and the -a (AND) and -o (OR) for compound tests within a single bracket [].
+You can use parentheses `()` for grouping and the `-a` (AND) and `-o` (OR) for compound tests within a single bracket `[]`.
 
 - Example:
 
@@ -232,8 +232,8 @@ Or using:
     fi
     ```
 
-9. Using case with if
-For more advanced logic, you can combine if and case statements.
+9. Using `case` with `if`
+For more advanced logic, you can combine `if` and `case` statements.
 
 - Example:
 
@@ -257,8 +257,8 @@ For more advanced logic, you can combine if and case statements.
     esac
     ```
 
-10. Nested if Statements
-You can nest if statements within each other to check multiple conditions in sequence.
+10. Nested `if` Statements
+You can nest `if` statements within each other to check multiple conditions in sequence.
 
 - Example:
 
@@ -283,8 +283,8 @@ Bash also supports regular expressions for advanced string matching.
     fi
     ```
 
-12. Using Functions with if
-Combine if statements with functions to structure larger scripts.
+12. Using Functions with `if`
+Combine `if` statements with functions to structure larger scripts.
 
 - Example:
 
@@ -300,7 +300,3 @@ Combine if statements with functions to structure larger scripts.
     check_even_odd 5
     check_even_odd 10
     ```
-
-
-
-
