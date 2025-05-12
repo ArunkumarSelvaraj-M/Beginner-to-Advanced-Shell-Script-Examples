@@ -31,7 +31,7 @@ The purpose of this script is to help users understand how different types of va
 To get started, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/ArunkumarSelvaraj-M/Shell-Scripting-Guide.git
+git clone https://github.com/ArunkumarSelvaraj-M/Beginner-to-Advanced-Shell-Script-Examples.git
 ```
 
 ### 2. Navigate to the Repository
@@ -39,7 +39,7 @@ git clone https://github.com/ArunkumarSelvaraj-M/Shell-Scripting-Guide.git
 Change to the directory containing the script:
 
 ```bash
-cd Shell-Scripting-Guide
+cd Beginner-to-Advanced-Shell-Script-Examples
 git checkout variables
 ```
 
